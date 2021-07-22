@@ -18,5 +18,7 @@ One fun way to learn is building your own **"home lab"**, a place to build apps,
 
 Like a chose your own adventure book, there are multiple different types of homelabs you can build. You can pick and choose which guides you want to build, where each one will have opportunities to explain the key Kubernetes concepts.
 
-### 
+#### Acknowledgements
+
+Shoutout to [Tyler](https://github.com/01100010011001010110010101110000), who started me on this journey and regularly pairs with me. I hope to keep passing on what I've learned here.
 

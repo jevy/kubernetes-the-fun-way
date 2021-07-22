@@ -8,6 +8,10 @@ While the learning curve is steep, there are lots of really good resources and c
 
 There are also a ton of "how-to" tutorials online to deploy certain things but every kubernetes setup is slightly different. Here I hope you will have an end-to-end solution with suggestions about areas you can dig in deeper.
 
+![Kubernetes is deep](.gitbook/assets/funk8s.jpg)
+
+Image from [Reddit](https://www.reddit.com/r/kubernetes/comments/nfbqag/kubernetes_isnt_that_hard_they_said_youll_have_no/).
+
 #### The Goal
 
 One fun way to learn is building your own **"home lab"**, a place to build apps, self-host cool tools you find online and live privately, all while gain experience with Kubernetes!

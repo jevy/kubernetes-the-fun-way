@@ -24,7 +24,7 @@ $ mkdir -p networking/healthcheck
 $ cd networking/healthcheck
 ```
 
-In the future, we will be making `Deployment` Kubernetes Objects, but here we just want something SUPER simple. So we will use the `CronJob` Kubernetes Object. Create a file called `cronjob` and paste this in it:
+In the future, we could make a `Deployment` Kubernetes Objects and a script inside , but here we just want something SUPER simple to make your cluster useful. Let's  use the `CronJob` Kubernetes Object. Create a file called `cronjob.yaml` and paste this in it:
 
 ```text
 apiVersion: batch/v1beta1
@@ -50,5 +50,11 @@ spec:
 
 ```
 
-TODO: Explain this
+The highlights of what we are doing here:
+
+* Line 2 is telling Kubernetes what kind of "Object" this this. It's a simple cronjob
+* Line 6 - Is the frequency we want to run the job. This can be whatever you want. Check out this [Crontab Guru](https://crontab.guru/) to change it.
+* Line 7-10 - Kubernetes uses "templates" since it is designed to scale by making it easy to run duplicate pods and jobs. 
+* Line 13: the image that we want to run. Since it's a simple curl command, we can use a purpose built curl image. By default, it uses the Docker Hub repo and you can see the image we are using [here](https://hub.docker.com/r/curlimages/curl). 
+* Line 15 - 19 - This is the command we want to run in the container.
 

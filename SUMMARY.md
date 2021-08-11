@@ -16,7 +16,7 @@
 * [Setting Up Your Development Machine](foundations/moving-development-to-your-development-machine.md)
 * [Adding Internet Health Monitor](foundations/adding-internet-health-monitor.md)
 * [\(Optional\) Adding a Node](foundations/optional-adding-a-node.md)
-* [Setting up your persistent storage](foundations/setting-up-your-persistent-storage.md)
+* [Setting up your persistent storage locations](foundations/setting-up-your-persistent-storage.md)
 
 ## Smart Home
 

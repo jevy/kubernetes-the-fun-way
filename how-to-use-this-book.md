@@ -30,3 +30,9 @@ While Google Reader has long since died, why not build your RSS Reader that does
 
 ### 
 
+# If It's Too Much
+
+If you're really focused on just standing up a homelab and learning Kubernetes isn't as important, then check out these alternatives "plug and play" options:
+
+- https://www.casaos.io/
+- https://www.portainer.io/
